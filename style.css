@@ -1,1 +1,186 @@
 /* Use Selectors and attributes for the HTML design */
+.intro {
+    font-weight: bolder;
+}
+
+.summary {
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.qualification .title1 {
+    width: 17%;
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+}
+ 
+.myname .fname {
+    width: 17%;
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+}
+
+.lastname .sname {
+    width: 17%;
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+}
+
+.genders .genderW {
+    text-align: center;
+    height: 30px;
+    width: 5%;
+}
+
+
+.genders .genderM {
+    border-bottom: 3px solid red;
+    text-align: center;
+    height: 30px;
+    width: 5%;
+}
+
+input[type="text"].genderM::placeholder {
+    color: red;
+}
+
+.langs .DE  {
+    border-bottom: 3px solid red;
+    text-align: center;
+    height: 30px;
+    width: 5%;
+}
+
+input[type="text"].DE::placeholder {
+    color: red;
+}
+
+.langs .FR {
+    text-align: center;
+    height: 30px;
+    width: 5%;
+}
+
+.langs .IT {
+    text-align: center;
+    height: 30px;
+    width: 5%;
+}
+
+.phonenumber {
+    border: 0;
+    border-bottom: 2px solid black;
+    width: 17%;
+}
+
+.mobileNum {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    width: 17%;
+}
+
+.realNum {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    width: 17%;
+}
+
+.fax {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    width: 17%;
+}
+
+.email1 {
+    border: 0;
+    border-bottom: 1px solid black;
+    width: 17%;
+}
+
+.email2 {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    width: 17%;
+}
+
+.compname {
+    border: 0;
+    border-bottom: 1px solid black;
+    width: 17%;
+}
+
+.compname2 {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    width: 17%;
+}
+
+.page {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    width: 17%;
+}
+
+.data .myaddress {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    width: 11%;
+}
+
+.data .houseNum {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    width: 5%;
+}
+
+.extraAddress {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    width: 17%;
+}
+
+.postbox {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    width: 17%;
+}
+
+.region .numlocation {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    width: 5%;
+}
+
+.region .addlocation {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+}
+
+.last .kanton {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    width: 7%;
+}
+
+.last .land {
+    border: 0;
+    border-bottom: 1px solid rgb(163, 159, 159);
+    width: 9%;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    margin-right: 50px;
+    float: right;
+}
